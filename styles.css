@@ -1,0 +1,182 @@
+@import "./css/nav.css";
+@import "./css/about.css";
+@import "./css/project.css";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+/* HEAD */
+.title {
+  background-image: url(/img/chicago.jpg);
+  background-position: left center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.title__layout {
+  display: flex;
+  padding-top: 7.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 5rem; */
+}
+
+.head {
+  margin-bottom: 2rem;
+  color: #f5f5f5;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.title__head {
+  font-size: 6.2rem;
+  animation: moveInLeft 1.2s ease-out;
+}
+
+.title__software {
+  margin-bottom: 5rem;
+  animation: moveInRight 1.2s ease-out;
+}
+
+.title__project {
+  animation: moveInBottom 1.2s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+img {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: #000000ee;
+  color: #f5f5f5;
+}
+
+.footer__layout {
+  margin: 2rem 0;
+  width: 50rem;
+}
+
+.footer__header {
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.footer__links {
+  font-size: 1.53rem;
+  margin: 0 1.1rem;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.footer__links:hover {
+  color: #2b6d94;
+  /* cursor: pointer; */
+}
+
+.fa-github,
+.fa-envelope {
+  color: #f5f5f5;
+  font-size: 2rem;
+  margin-right: 0.8rem;
+}
+
+/* ANIMATIONS */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@media only screen and (max-width: 28.12em) {
+  .head {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+  .title__head {
+    font-size: 5.2rem;
+  }
+
+  img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  img {
+    height: 160px;
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  img {
+    height: 185px;
+    width: 185px;
+  }
+}

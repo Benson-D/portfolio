@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="icon" href="img/favicon-32x32.png" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <div class="menu">
+      <nav class="menu__bar">
+        <ul class="menu__items">
+          <li class="item">
+            <a class="item__link" href="#section__about"> About Me </a>
+          </li>
+          <li class="item">
+            <a class="item__link" href="#section__project"> Projects </a>
+          </li>
+          <li class="item">
+            <a
+              class="item__resume"
+              href="https://drive.google.com/file/d/15qySH92gs_u5T7QyOMJvA0bZQ33dvDsP/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </li>
+          <li class="item">
+            <a class="item__link" href="#section__footer"> Contact Me </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- HEADER SECTION -->
+    <header class="title">
+      <div class="title__layout">
+        <h1 class="head title__head">Dan Benson</h1>
+        <h3 class="head title__software">Software Developer</h3>
+        <h3 class="head title__project">Portfolio</h3>
+      </div>
+    </header>
+    <!-- ABOUT SECTION -->
+    <section class="about" id="section__about">
+      <h3 class="about__header">About Me</h3>
+      <hr class="about__under" />
+      <div class="about__layout">
+        <div class="about__photo">
+          <img src="./img/portfolio.jpg" alt="profile" />
+        </div>
+        <div class="about__titles">
+          <p class="about__me about--1">Hello there!</p>
+          <p class="about__me about--2">
+            My name is Dan, I'm a full-stack software engineer. I strive to
+            create programs that make peoples lives easier and more efficient.
+            As a musician I love getting the chance to use my artistic side by
+            designing aesthically visual front-end developments.
+          </p>
+          <p class="about__me">
+            I'm open to explore different opportunities, feel free to contact
+            me! For more information please view my
+            <a
+              href="https://drive.google.com/file/d/15qySH92gs_u5T7QyOMJvA0bZQ33dvDsP/view?usp=sharing"
+              target="_blank"
+              class="about__link"
+            >
+              <span class="about__resume">
+                <i class="far fa-file-pdf"></i>
+                resume.
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section class="project" id="section__project">
+      <h3 class="project__header">Projects</h3>
+      <hr class="project__under" />
+      <div class="project__content">
+        <div class="app__layout">
+          <img src="./img/projectWeather.png" alt="weather-app" />
+        </div>
+        <div class="app">
+          <div class="app__header">
+            <h2 class="app__info">Weather App</h2>
+            <p class="app__info--date">May 2021</p>
+          </div>
+          <p class="app__detail">
+            Lookup the current weather today based on which city you live in, or
+            a city you're traveling to. This is a basic front end vanilla
+            JavaScript app.
+          </p>
+          <p class="app__detail">
+            Link to code:
+            <a class="app__link" href="https://github.com/Benson-D/weather-app"
+              >weather app</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer" id="section__footer">
+      <h3 class="footer__header">Contact Me!</h3>
+      <div>
+        <a class="footer__links" href="mailto:dbenson3091@gmail.com"
+          ><i class="far fa-envelope"></i>Email</a
+        >
+        <a class="footer__links" href="https://github.com/Benson-D"
+          ><i class="fab fa-github"></i>GitHub</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+/* NAV */
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: #000000ee;
+}
+
+.menu__bar {
+  width: 50rem;
+  margin: 1.5rem 0;
+}
+
+.menu__items {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  list-style: none;
+  /* color: #f5f5f5; */
+}
+
+/* Links */
+.item__link,
+.item__resume {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+.item {
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.item__link:hover,
+.item__resume:hover {
+  color: #2b6d94;
+  cursor: pointer;
+}
