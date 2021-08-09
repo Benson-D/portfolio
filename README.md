@@ -5,3 +5,6 @@
  + This uses html, css, and vanilla javascript. 
  + Main sections: About Me, Projects, Contact info 
  + Navigation bar is included along with links and resume. 
+
+## Link to Deployed App
+https://benson-d-portfolio.netlify.app/
