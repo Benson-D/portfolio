@@ -45,11 +45,17 @@
 
 .app__link {
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .app__link:hover {
   color: #2b6d94;
+}
+
+@media only screen and (max-width: 46.8em) {
+  .app__detail {
+    width: 30rem;
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -76,10 +82,8 @@
     text-align: center;
     width: 20rem;
   }
-}
 
-@media only screen and (max-width: 46.8em) {
-  .app__detail {
-    width: 30rem;
+  .app__link {
+    color: #2b6d94;
   }
 }
