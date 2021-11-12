@@ -35,7 +35,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding-top: 5rem; */
 }
 
 .head {
@@ -61,11 +60,10 @@ body {
 }
 
 img {
-  height: 215px;
-  width: 220px;
   border-radius: 50%;
   border: 3px solid black;
 }
+
 
 /* FOOTER */
 .footer {
@@ -98,7 +96,6 @@ img {
 
 .footer__links:hover {
   color: #2b6d94;
-  /* cursor: pointer; */
 }
 
 .fa-github,
@@ -164,18 +161,22 @@ section {
   }
 }
 
+/* MEDIA QUERIES */
+
 @media only screen and (max-width: 40em) {
-  img {
+  .about__image, .project__img {
     height: 185px;
     width: 185px;
   }
 }
 
 @media only screen and (max-width: 31.25em) {
-  img {
+  .about__image, .project__img  {
     height: 160px;
     width: 160px;
   }
+
+  
 }
 
 @media only screen and (max-width: 28.12em) {
@@ -187,8 +188,10 @@ section {
     font-size: 5.2rem;
   }
 
-  img {
+  .about__image, .project__img  {
     height: 150px;
     width: 150px;
   }
+
+
 }
