@@ -51,7 +51,7 @@
 
 .app__layout:hover > a > .app__demo{
   opacity: 1;
-  transform: translate(-50%, -290%);
+  transform: translate(-50%, -302%);
 }
 
 .project__img {
