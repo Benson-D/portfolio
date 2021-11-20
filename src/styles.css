@@ -31,10 +31,10 @@ body {
 
 .title__layout {
   display: flex;
-  padding-top: 7.2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 7.2rem;
 }
 
 .head {
