@@ -110,6 +110,11 @@ section {
   transition: transform 1s, opacity 1s;
 }
 
+.copyright {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
 /* ANIMATIONS */
 
 .section--hidden {
