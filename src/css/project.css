@@ -16,6 +16,7 @@
 .project__under {
   width: 80%;
   text-align: center;
+  margin: 10px 0;
 }
 
 .project__content {
@@ -51,12 +52,12 @@
 
 .app__layout:hover > a > .app__demo{
   opacity: 1;
-  transform: translate(-50%, -302%);
+  transform: translate(-50%, -350%);
 }
 
 .project__img {
-  height: 220px;
-  width: 240px;
+  height: 240px;
+  width: 260px;
   transform: translateX(-4rem) scale(1);
   backface-visibility: hidden;
   transition: all 1s;
