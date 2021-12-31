@@ -86,10 +86,6 @@
 
 .app__link {
   text-decoration: none;
-  color: #000000;
-}
-
-.app__link:hover {
   color: #2b6d94;
 }
 

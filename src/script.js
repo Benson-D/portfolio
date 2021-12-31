@@ -63,8 +63,10 @@ function renderProject(projects){
             <b>Tech stack: </b>${tech}
           </p>
           <p class="app__detail">
-            <b>GitHub:</b>
-            <a class="app__link" href="${github}">${name.toLowerCase()} app</a>
+            <b>Links: </b>
+            <a class="app__link" href="${demo}">Demo</a>
+            <span> | </span>
+            <a class="app__link" href="${github}">Github</a>
           </p>
         </div>
     </div>`
