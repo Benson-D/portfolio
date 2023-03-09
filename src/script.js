@@ -2,11 +2,10 @@
 
 const menu = document.querySelector(".menu__items");
 const sections = document.querySelectorAll("section");
-const projectSection = document.getElementById("section__project")
+const projectSection = document.getElementById("section__project");
 
 /** Function clicks on a link and scrolls smoothly to the html section, if the classlist doesn't contain "item__resume" */
-
-function smoothScrolling(e){
+function smoothScrolling(e) {
   if (!e.target.classList.contains("item__resume")) {
     e.preventDefault();
 
@@ -20,7 +19,6 @@ function smoothScrolling(e){
 
 /** Function reveals a new section of the portfolio when a certain point of the 
  * view port has crossed a specific marker, removes hidden class */
-
 const revealSection = function (entries, observer) {
   const [entry] = entries;
 
@@ -37,7 +35,7 @@ const sectionObserver = new IntersectionObserver(revealSection, {
 
 
 /** Renders an individual project in projects section */
-function renderProject(projects){
+function renderProject(projects) {
 
   for (const project of projects) {
 
